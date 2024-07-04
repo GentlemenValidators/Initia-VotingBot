@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  telegram-bot:
+    build: .
+    container_name: telegram_bot
+    environment:
+      - TELEGRAM_BOT_TOKEN=${TELEGRAM_BOT_TOKEN}
+    volumes:
+      - .:/usr/src/app
+    restart: always
+    networks:
+      - bot-network
+
+networks:
+  bot-network:
+    driver: bridge
