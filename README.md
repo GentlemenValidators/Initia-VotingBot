@@ -2,6 +2,8 @@
 
 This Telegram bot monitors governance proposals for various blockchain networks based on the Cosmos SDK and notifies users of new proposals.
 
+![Monitoring Image](https://github.com/GentlemenValidators/Initia-VotingBot/blob/main/gv1.png)
+
 ## Features
 
 - Monitors multiple blockchain networks for new governance proposals.
